@@ -15,7 +15,8 @@ public class ArticleServiceJDBC implements ArticleService {
 
     private static final Logger LOGGER = Logger.getLogger(ArticleServiceJDBC.class.getName());
 
-    private static final String INSTANCE_PATH = "jdbc:google:rdbms://sfeir.com:test-google-cloud-sql:trial-cloudsql-instance-vivien/vega";
+    /*private static final String INSTANCE_PATH = "jdbc:google:rdbms://sfeir.com:test-google-cloud-sql:trial-cloudsql-instance-vivien/vega";*/
+    private static final String INSTANCE_PATH = "nom_complet_instance_cloudsql"; //Récupérable à l'adresse https://code.google.com/apis/console
 
     public ArticleServiceJDBC() {
         try {
