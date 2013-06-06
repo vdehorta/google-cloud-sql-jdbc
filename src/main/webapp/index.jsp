@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Articles administration</h1>
+<h1>Articles administration 2</h1>
 
 <form action="/ArticleAdministration" method="post">
     <div>Title: <input type="text" name="articleTitle"/></div>
